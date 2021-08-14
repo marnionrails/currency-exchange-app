@@ -1,10 +1,6 @@
-## _THIS PROJECT IS AN ENVIRONMENT TEMPLATE FOR FUTURE PROJECTS_
+# _Currency Exchanger_
 
-## _This project is not in a complete or portfolio ready state, and should not be considered representational of professional work._
-
-# _Application Name_
-
-#### _Brief description of application_
+#### _Intermediate JavaScript Independent Project for Epicodus. User will input a USD amount and receive its equivalent amount in the foreign currency of their choice._
 
 #### _By **Marni Sucher**_
 
@@ -14,7 +10,7 @@
 2. [Technologies Used](#technologies)
 3. [Description](#description)
 4. [Setup/Installation Requirements](#setup)
-5. [Additional Setup/Installation Note for Windows Users](#windows)
+5. [Additional Setup/Installation Note for Mac Users](#mac)
 6. [Specifications](#specs)
 7. [Known Bugs](#bugs)
 8. [License](#license)
@@ -22,7 +18,7 @@
 
 ## Preview <a id="preview"></a>
 
-* _Direct your browser to a [live version](https://jessicarubinwilliams.github.io/project/index.html) on GitHub Pages._
+* _Direct your browser to a [live version](https://marnionrails.github.io/project/index.html) on GitHub Pages._
 
 ## Technologies Used <a id="technologies"></a>
 
@@ -48,10 +44,11 @@
 * _webpack 4.39.3_
 * _webpack-cli 3.3.8_
 * _webpack-dev-server 3.11.2_
+* _ExchangeRate-API_
 
 ## Description <a id="description"></a>
 
-_This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have. Balance between a summary of the project and a tame market pitch._
+_This website was built to demonstrate understanding of API calls and asynchrony in Javascript. It uses API data from exchangerate-api.com to convert a user input in US Dollars to the equivalent amount of a non-US currency._
 
 ## Setup/Installation Requirements <a id="setup"></a>
 
@@ -67,10 +64,10 @@ _This is a detailed description of your application. Give as much detail as need
 * _Lint code with the command `$ npm run lint`_
 * _Run tests in Jest with the command `$ npm test`_
 
-## Additional Setup/Installation Note for Windows Users <a id="windows"></a>
+## Additional Setup/Installation Note for Mac Users <a id="mac"></a>
 
-_This environment was created on a Mac. For it to work properly in your local environment make the following change:_
-* _Update package.json, line 8 to: `"start": "npm run build & webpack-dev-server --open --mode development",`_
+_This environment was created on a Windows machine. For it to work properly in your local environment make the following change:_
+* _Update package.json, line 8 to: `"start": "npm run build; webpack-dev-server --open --mode development",`_
 
 ## Specifications <a id="specs"></a>
 
