@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Exchange</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="title">Currency Exchange</h1>
+    </div>
+    <form id="money-exchange">
+      <label for="original">Dollars to convert: $</label>
+      <input type="text" id="original" required>
+      <label for="currency-type">Choose currency:</label>
+      <select name = "currency" id="currency">
+        <option value="Pounds">Pounds</option>
+        <option value="Francs">Francs</option>
+        <option value="Yen">Yen</option>
+        <option value="Euro">Euro</option>
+        <option value="Pesos">Pesos</option>
+        <option value="BAD">BAD</option>
+      </select>
+      <button type="submit" id="convert">Convert!</button>
+    </form>
+    
+    <div class="results">
+
+    </div>
+    <img src="https://thumbor.granitemedia.com/coins/tCxFUMa1LJ1G4V6MXYgp82XDTZE=/800x534/filters:format(webp):quality(80)/granite-web-prod/10/92/109237ed61a54a9392bcf905bf38d67d.jpg" alt="money">
+  </div>
+</body>
+</html>
