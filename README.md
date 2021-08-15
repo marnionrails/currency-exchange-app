@@ -52,6 +52,13 @@ _This website was built to demonstrate understanding of API calls and asynchrony
 
 ## Setup/Installation Requirements <a id="setup"></a>
 
+#### For the API
+* Go to [https://app.exchangerate-api.com/](https://app.exchangerate-api.com/)
+* Create an account
+* Copy and paste your API key into your .env file (explained below). Ensure it looks as such: API_KEY = _API_KEY_
+<br/><br/>
+
+#### Then
 * _Open the terminal on your local machine_
 * _If [Node.js](https://nodejs.org/en/) and [Nope Package Manager (npm)](https://www.npmjs.com/) are not installed on your local device, follow the instructions [here](https://www.learnhowtoprogram.com/intermediate-javascript/getting-started-with-javascript/installing-node-js)_
 * _Navigate to the directory inside of which you wish to house this project_
@@ -85,4 +92,4 @@ _This environment was created on a Windows machine. For it to work properly in y
 Copyright (c) **_2021 Marni Sucher_**
 
 ## Contact Information <a id="contact"></a>
-**_Marni Sucher [mailto](mailto:suchermarni@gmail.com)_**
+**_Marni Sucher [suchermarni@gmail.com](mailto:suchermarni@gmail.com)_**
